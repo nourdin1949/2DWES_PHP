@@ -6,7 +6,6 @@ if(isset($_POST['departamento'])){
     $encontrado = $_POST['departamento'];
 }
 
-
 $contadorEmpleados=0;
 $contador =0;
 echo "<table><tr><td>Departamentos</td><td>Empleados</td></tr>";
