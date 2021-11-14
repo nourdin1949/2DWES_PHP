@@ -9,7 +9,6 @@ function conexion (){
      return $conexion;
 }
 
-
 function conexionBiblio (){
     $nombreServidor ="localhost";
         $nombreusuario ="root";

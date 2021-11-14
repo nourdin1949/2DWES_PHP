@@ -223,7 +223,7 @@
     $sql = "SELECT Autor,Titulo, Editorial FROM libros where Editorial='Alfaguara'";
    
    $query = $conexion->query($sql);
-        echo "<table class='table'><tr><td>Autor</td><td>Titulo</td><td>Editorial</td></tr>"; 
+               echo "<table class='table'><tr><td>Autor</td><td>Titulo</td><td>Editorial</td></tr>"; 
   while ($valores = mysqli_fetch_array($query)) {
                       
   echo '<tr><td>'.$valores['Autor'].'</td><td>'.$valores['Titulo'].'</td><td>'.$valores['Editorial'].'</td></tr>';

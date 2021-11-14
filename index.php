@@ -65,7 +65,7 @@ if (isset($_GET['septimo'])) {
 <a href="index.php?septimo=true">
     <input class="btn btn-primary m-1" name="septimo" type="button" value="7ª Número de libros por registro">
 
-</a><br>
+</a>
 </center>  
 </body>
 </html>
